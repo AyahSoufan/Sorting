@@ -1,0 +1,18 @@
+void selectSort(int arr[], int length)
+{
+int mine;
+int temp;
+
+for(int i; i<length-1 ;i++){
+mine=i;
+for(int j=i+1;j< length;j++){
+if(arr[j]<arr[mine];
+mine=j;
+}
+if(i!=mine){
+temp=arr[i];
+arr[i]=arr[mine];
+arr[mine]=temp;
+}
+}
+}
